@@ -1,0 +1,30 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.flex-container {
+	/* float: left; */
+	display: flex;
+	justify-content: space-between;
+	background-color: goldenrod;
+	padding: 25px;
+}
+
+.flex-child {
+	height: 100px;
+	width: 100px;
+}
+
+.c1, .c3 {
+	flex: 0 0 50px;
+	/* flex: 1 1 50px; */
+	background-color: aquamarine;
+}
+
+.c2 {
+	flex: 0 0 auto;
+	/* flex: 1 1 auto; */
+	background-color: tomato;
+}
